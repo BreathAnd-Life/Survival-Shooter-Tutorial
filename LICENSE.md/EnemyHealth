@@ -96,6 +96,7 @@ public class EnemyHealth : MonoBehaviour
         // The enemy should no sink.
         isSinking = true;
 
+        //新增添的控制分数的代码
         // Increase the score by the enemy's score value.
         ScoreManager.score += scoreValue;
 
